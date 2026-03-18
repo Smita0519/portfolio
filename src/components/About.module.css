@@ -23,7 +23,7 @@
   width: 5rem;
   height: 0.15rem;
   background: #C4A898;
-  margin: 0.5rem 0rem 3rem 16.6rem;
+  margin: 0.5rem 0rem 3rem 12.6rem;
 }
 
 .imageFrame {
@@ -43,8 +43,8 @@
 }
 
 .image {
-  width: 520px;
-  height: 700px;
+  width: 480px;
+  height: 620px;
   aspect-ratio: 3 / 4;
   object-fit: cover;
   display: block;
@@ -53,7 +53,7 @@
 }
 
 .content {
-  padding-left: 8px;
+  padding-left: 5px;
 }
 
 .heading {
@@ -72,6 +72,8 @@
   color: #5C4F42;
   line-height: 1.9;
   margin-bottom: 14px;
+  display: flex;
+  text-align: center;
 }
 
 

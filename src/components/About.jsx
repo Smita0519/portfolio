@@ -14,33 +14,21 @@ function About() {
         <div className={styles.content}>
             <h3 className={styles.heading}>Hello,<br />Let's Chat.</h3>
             <p className={styles.bio}>
-              I am a Computer Engineering student in my third year, 
-              with a growing interest in frontend development and 
-              building modern web applications. I enjoy working on 
-              projects that combine problem solving, design, and 
-              programming to create interfaces that are both 
-              functional and user-friendly.
+              I'm a third-year Computer Engineering student with a growing passion
+                for building modern web applications. I enjoy crafting interfaces that
+                are both functional and beautifully user-friendly. 
             </p>
 
             <p className={styles.bio}>
-              My academic background has introduced me to areas such as
-              programming, computer systems, networking, and digital
-              electronics. Alongside my coursework, I have been developing
-              practical skills in web development using React, JavaScript,
-              HTML, and CSS.
+              My academic background spans programming fundamentals, networking, and
+                digital electronics. Alongside coursework, I've been deepening my
+                frontend skills in React, JavaScript, HTML, and CSS.
             </p>
 
             <p className={styles.bio}>
-              I enjoy learning by building projects and experimenting with new
-              technologies. Currently, I am focused on improving my knowledge
-              of frontend architecture, UI design principles, and modern web
-              development tools.
-            </p>
-            <p className={styles.bio}>
-              When I'm not coding, you'll find me in a quiet corner, enjoying the 
-              stillness and finding inspiration in the simple things. I believe that 
-              the best code, like the best moments in life, is clean, intentional 
-              and peaceful.
+              When I'm not coding, you'll find me in a quiet corner, enjoying the
+                stillness. I believe the best code — like the best moments in life —
+                is clean and intentional.
             </p>
           </div>
         </div>
