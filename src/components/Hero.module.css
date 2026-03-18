@@ -1,0 +1,115 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0 80px 60px;
+  background-color: #FAF6F1;
+}
+
+.greeting {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9C8E82;
+  margin-bottom: 40px;
+
+  opacity: 0;
+  transform: translateY(16px);
+  animation: fadeUp 0.8s 0.2s forwards;
+}
+
+.name{
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 1.05;
+  color: #2C2318;
+  margin-bottom: 4px;
+
+  opacity: 0;
+  transform: translateY(16px);
+  animation: fadeUp 0.9s 0.45s forwards;
+}
+
+.rule {
+  width: 48px;
+  height: 1px;
+  background: #C4A898;
+  margin: 28px 0;
+
+  opacity: 0;
+  animation: fadeUp 0.8s 0.6s forwards;
+}
+
+.tagline {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #5C4F42;
+  max-width: 420px;
+  line-height: 1.85;
+  margin-top: 16px;
+  margin-bottom: 40px;
+
+  opacity: 0;
+  transform: translateY(16px);
+  animation: fadeUp 0.8s 0.7s forwards;
+}
+
+.buttons {
+  opacity: 0;
+  transform: translateY(16px);
+  animation: fadeUp 0.8s 0.85s forwards;
+  gap: 1rem;
+  display: flex;
+}
+
+.btnPrimary {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 14px 32px;
+  background: #2C2318;
+  color: #FAF6F1;
+  border: none;
+  transition: background 0.25s, transform 0.2s;
+  display: inline-block;
+}
+
+.btnPrimary:hover {
+  background: #7B5C48;
+  color: #FAF6F1;
+  transform: translateY(-1px);
+}
+
+.btnSecondary {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 13px 32px;
+  background: transparent;
+  color: #2C2318;
+  border: 0.5px solid #C4A898;
+  transition: border-color 0.25s, color 0.25s, transform 0.2s;
+  display: inline-block;
+}
+
+.btnSecondary:hover {
+  border-color: #2C2318;
+  color: #2C2318;
+  transform: translateY(-1px);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

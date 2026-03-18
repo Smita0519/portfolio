@@ -1,0 +1,98 @@
+.footer {
+  background-color: #2C2318;
+  padding: 60px 60px 30px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(245, 238, 230, 0.288);
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.logo {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #F5EEE6;
+  margin-bottom: 10px;
+  letter-spacing: 0.01em;
+}
+
+.tagline {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: rgba(245, 238, 230, 0.5);
+  line-height: 1.7;
+  max-width: 240px;
+}
+
+.linksTitle {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 0.62rem;
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #C4A898;
+  margin-bottom: 16px;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.linkList a {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 300;
+  color: rgba(245, 238, 230, 0.65);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s;
+}
+
+.linkList a:hover {
+  color: #e6bb9f;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: rgba(245, 238, 230, 0.35);
+}
+
+.builtWith {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reactIcon {
+  color: #61DAFB;
+  opacity: 0.7;
+}
