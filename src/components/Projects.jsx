@@ -38,54 +38,60 @@ const SHORT_LIMIT = 100;
 
 function ProjectCard({ project }) {
   const [expanded, setExpanded] = useState(false);
-
   const isLong = project.description.length > SHORT_LIMIT;
   const displayedText = expanded
     ? project.description
     : project.description.slice(0, SHORT_LIMIT) + (isLong ? '...' : '');
 
   return (
-    <div className={styles.card}>
+    <article className={styles.card}>
       <div className={styles.imageWrapper}>
-        <img src={project.image} alt={project.title} className={styles.cardImage} />
+        <img
+          src={project.image}
+          alt={`${project.title} project screenshot`}
+          className={styles.cardImage}
+          loading="lazy"
+        />
       </div>
       <div className={styles.cardBody}>
         <h3 className={styles.cardTitle}>{project.title}</h3>
-        
         <p className={styles.cardDesc}>
           {displayedText}
           {isLong && (
             <button
               className={styles.viewMore}
               onClick={() => setExpanded(!expanded)}
+              aria-expanded={expanded}
             >
               {expanded ? ' View Less' : ' View More'}
             </button>
           )}
         </p>
         <div className={styles.tags}>
-          {project.tags.map((tag, index) => (
-            <span key={index} className={styles.tag}>{tag}</span>
+          {project.tags.map((tag, i) => (
+            <span key={i} className="tag">{tag}</span>
           ))}
         </div>
       </div>
       <div className={styles.cardFooter}>
-        <a href={project.liveLink} className={styles.btnPrimary} target="_blank" rel="noreferrer">Live Demo</a>
-        <a href={project.githubLink} className={styles.btnSecondary} target="_blank" rel="noreferrer">GitHub</a>
+        <a href={project.liveLink} className="btn-primary" target="_blank" rel="noreferrer noopener">Live Demo</a>
+        <a href={project.githubLink} className="btn-secondary" target="_blank" rel="noreferrer noopener">GitHub</a>
       </div>
-    </div>
+    </article>
   );
 }
 
 function Projects() {
   return (
-    <section id="projects" className={styles.projects}>
-      <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>My Projects</h2>
-        <div className={styles.rule}></div>
-        <div className={styles.grid}>
+    <section id="projects" className={styles.projects} aria-labelledby="projects-title">
+      <div className="container-xl">
+        <h2 id="projects-title" className="section-title">My Projects</h2>
+        <div className="section-rule"></div>
+        <div className="row g-4">
           {projects.map((project) => (
-            <ProjectCard  project={project} />
+            <div key={project.id} className="col-12 col-md-6 col-lg-4">
+              <ProjectCard project={project} />
+            </div>
           ))}
         </div>
       </div>
