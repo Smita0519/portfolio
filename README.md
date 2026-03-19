@@ -1,2 +1,2 @@
 ## link
-smitamaharjan.com.np
+www.smitamaharjan.com.np
