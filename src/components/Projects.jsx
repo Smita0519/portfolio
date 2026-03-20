@@ -3,11 +3,11 @@ import styles from './Projects.module.css';
 import project1 from '../assets/p1.jpg';
 import project2 from '../assets/p2.jpg';
 import project3 from '../assets/p3.png';
-// import project4 from '../assets/p4.png';
-// import project5 from '../assets/p5.png';
-// import project6 from '../assets/p6.png';
-// import project7 from '../assets/p7.png';
-//import planMymealVideo from '../assets/v2.mp4'; // After adding videovideo
+import project4 from '../assets/p4.jpg';
+import project5 from '../assets/p5.png';
+import project6 from '../assets/p6.png';
+import project7 from '../assets/p7.jpg';
+//import planMymealVideo from '../assets/v2.mp4'; // After adding video
 
 const projects = [
   {
@@ -27,7 +27,7 @@ const projects = [
     tags: ["Django", "Python", "HTML", "CSS"],
     liveLink: null,
     liveLabel: "Coming Soon",
-    videoSrc: null, // After adding video
+    videoSrc: null, 
     githubLink: "https://github.com/Smita0519/food_app",
   },
   {
@@ -42,45 +42,45 @@ const projects = [
     {
     id: 4,
     title: "Ant Simulation",
-    image: null,
+    image: project4,
     description: "An interactive ant colony simulation developed with Pygame that demonstrates swarm intelligence and emergent behavior. Ants navigate the environment using pheromone-based pathfinding to locate and collect food, showcasing concepts of decentralized systems, simple AI rules, and collective behavior.",
     tags: ["python", "pygame"],
     liveLink: null,
     liveLabel: "Coming Soon",
-    videoSrc: null, // After adding video
+    videoSrc: null,
     githubLink: "https://github.com/Smita0519/Ant-Simulation",
   },
     {
     id: 5,
     title: "Space Invaders Game",
-    image: null,
+    image: project5,
     description: "A classic Space Invaders-style arcade game built using Pygame, where the player controls a spaceship to shoot and eliminate incoming enemies. The game features smooth controls, collision detection, scoring, and increasing difficulty, demonstrating core concepts of 2D game development and real-time interaction in Python.",
     tags: ["python", "pygame"],
     liveLink: null,
     liveLabel: "Coming Soon",
-    videoSrc: null, // After adding video
+    videoSrc: null, 
     githubLink: "https://github.com/Smita0519/Space-invaders",
   },
     {
     id: 6,
     title: "Lung Cancer Prediction",
-    image: null,
+    image: project6,
     description: "A machine learning-based prediction system designed to assess the likelihood of lung cancer using patient data. The project involves data preprocessing, model training, and classification, highlighting practical applications of machine learning in healthcare and early risk detection. ONLY FOR ACADEMIC PURPOSES, NOT FOR REAL-WORLD USE.",
     tags: ["Python", "Machine Learning", "scikit-learn"],
     liveLink: null,
     liveLabel: "Coming Soon",
-    videoSrc: null, // After adding video
+    videoSrc: null,
     githubLink: "https://github.com/Smita0519/Lung-cancer-prediction",
   },
     {
     id: 7,
     title: "Sticky Notes App",
-    image: null,
+    image: project7,
     description: "A full-stack, user-friendly note-taking application designed for creating, editing, and organizing notes efficiently. It features a clean interface, dynamic updates, and persistent storage, showcasing frontend development, state management, and interactive UI design.",
     tags: ["React", "Django", "Python", "HTML", "CSS", "SQLite", "JavaScript", "REST APIs"],
     liveLink: null,
     liveLabel: "Coming Soon",
-    videoSrc: null, // After adding video
+    videoSrc: null, 
     githubLink: "https://github.com/Smita0519/Sticky-Notes-App",
   },
 ];

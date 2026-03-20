@@ -20,15 +20,15 @@ function App() {
   return (
     <div>
       <Helmet>
-        <title>Smita Maharjan — Frontend Developer | Lalitpur, Nepal</title>
+        <title>Smita Maharjan</title> 
         <meta name="description" content="Smita Maharjan is a Computer Engineering student and aspiring Frontend Developer from Lalitpur, Nepal, crafting clean, modern web experiences with React, JavaScript, and CSS." />
-        <meta name="keywords" content="Smita Maharjan, Frontend Developer, React Developer, Nepal, Portfolio, Web Developer Lalitpur, JavaScript, Computer Engineering" />
+        <meta name="keywords" content="Smita Maharjan, Computer Engineering" />
         <meta name="author" content="Smita Maharjan" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://smitamaharjan.com.np" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="Smita Maharjan — Frontend Developer" />
+        <meta property="og:title" content="Smita Maharjan" />
         <meta property="og:description" content="Portfolio of Smita Maharjan, aspiring Frontend Developer based in Lalitpur, Nepal. Building clean, modern web experiences with React and JavaScript." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://smitamaharjan.com.np" />
@@ -38,8 +38,8 @@ function App() {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Smita Maharjan — Frontend Developer" />
-        <meta name="twitter:description" content="Portfolio of Smita Maharjan, Frontend Developer based in Lalitpur, Nepal." />
+        <meta name="twitter:title" content="Smita Maharjan" />
+        <meta name="twitter:description" content="Portfolio of Smita Maharjan, aspiring Frontend Developer based in Lalitpur, Nepal." />
         <meta name="twitter:image" content="https://smitamaharjan.com.np/og-image.jpg" />
 
         {/* JSON-LD Structured Data */}
@@ -49,7 +49,7 @@ function App() {
             "@type": "Person",
             "name": "Smita Maharjan",
             "url": "https://smitamaharjan.com.np",
-            "jobTitle": "Frontend Developer",
+            "jobTitle": "Aspiring Frontend Developer",
             "description": "Computer Engineering student and aspiring Frontend Developer from Lalitpur, Nepal.",
             "address": {
               "@type": "PostalAddress",

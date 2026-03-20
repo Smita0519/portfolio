@@ -12,7 +12,7 @@ function About() {
             <div className={styles.imageFrame}>
               <img
                 src={profilePic}
-                alt="Smita Maharjan, Frontend Developer"
+                alt="Smita Maharjan"
                 className={styles.image}
                 loading="lazy"
               />
