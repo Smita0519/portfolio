@@ -21,7 +21,7 @@ function App() {
     <div>
       <Helmet>
         <title>Smita Maharjan</title> 
-        <meta name="description" content="Smita Maharjan is a Computer Engineering student and aspiring Frontend Developer from Lalitpur, Nepal, crafting clean, modern web experiences with React, JavaScript, and CSS." />
+        <meta name="description" content="Hello, I'm Smita Maharjan, a Computer Engineering student and aspiring Frontend Developer from Lalitpur, Nepal, crafting clean, modern web experiences with React, JavaScript, and CSS." />
         <meta name="keywords" content="Smita Maharjan, Computer Engineering" />
         <meta name="author" content="Smita Maharjan" />
         <meta name="robots" content="index, follow" />
